@@ -20,5 +20,13 @@ namespace Services
         {
             return categoryRepository.GetCategories();
         }
+
+        public Category GetCategoryById(short? id) => categoryRepository.GetCategoryById(id);
+
+        public void SaveCategory(Category category) => categoryRepository.SaveCategory(category);
+
+        public void UpdateCategory(Category category) => categoryRepository.UpdateCategory(category);
+
+        public void DeleteCategory(Category category) => categoryRepository.DeleteCategory(category);
     }
 }

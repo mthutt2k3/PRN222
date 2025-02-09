@@ -1,44 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using BusinessObjects;
-using DataAccessObjects;
+using Services;
+using System.Collections.Generic;
 
 namespace FuNewsManagement.Controllers
 {
     public class TagsController : Controller
     {
-        private readonly FunewsManagementContext _context;
+        private readonly ITagService _tagService;
 
-        public TagsController(FunewsManagementContext context)
+        public TagsController(ITagService tagService)
         {
-            _context = context;
+            _tagService = tagService;
         }
 
         // GET: Tags
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.Tags.ToListAsync());
+            var tags = _tagService.GetTags();
+            return View(tags);
         }
 
         // GET: Tags/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var tag = await _context.Tags
-                .FirstOrDefaultAsync(m => m.TagId == id);
-            if (tag == null)
-            {
-                return NotFound();
-            }
+            var tag = _tagService.GetTagById(id.Value);
+            if (tag == null) return NotFound();
 
             return View(tag);
         }
@@ -50,86 +39,51 @@ namespace FuNewsManagement.Controllers
         }
 
         // POST: Tags/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("TagId,TagName,Note")] Tag tag)
+        public IActionResult Create([Bind("TagId,TagName,Note")] Tag tag)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(tag);
-                await _context.SaveChangesAsync();
+                _tagService.SaveTag(tag);
                 return RedirectToAction(nameof(Index));
             }
             return View(tag);
         }
 
         // GET: Tags/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var tag = await _context.Tags.FindAsync(id);
-            if (tag == null)
-            {
-                return NotFound();
-            }
+            var tag = _tagService.GetTagById(id.Value);
+            if (tag == null) return NotFound();
+
             return View(tag);
         }
 
         // POST: Tags/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("TagId,TagName,Note")] Tag tag)
+        public IActionResult Edit(int id, [Bind("TagId,TagName,Note")] Tag tag)
         {
-            if (id != tag.TagId)
-            {
-                return NotFound();
-            }
+            if (id != tag.TagId) return NotFound();
 
             if (ModelState.IsValid)
             {
-                try
-                {
-                    _context.Update(tag);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!TagExists(tag.TagId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
+                _tagService.UpdateTag(tag);
                 return RedirectToAction(nameof(Index));
             }
             return View(tag);
         }
 
         // GET: Tags/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public IActionResult Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var tag = await _context.Tags
-                .FirstOrDefaultAsync(m => m.TagId == id);
-            if (tag == null)
-            {
-                return NotFound();
-            }
+            var tag = _tagService.GetTagById(id.Value);
+            if (tag == null) return NotFound();
 
             return View(tag);
         }
@@ -137,21 +91,14 @@ namespace FuNewsManagement.Controllers
         // POST: Tags/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(int id)
         {
-            var tag = await _context.Tags.FindAsync(id);
+            var tag = _tagService.GetTagById(id);
             if (tag != null)
             {
-                _context.Tags.Remove(tag);
+                _tagService.DeleteTag(tag);
             }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool TagExists(int id)
-        {
-            return _context.Tags.Any(e => e.TagId == id);
         }
     }
 }
