@@ -11,5 +11,7 @@ namespace Repositories
     public class AccountRepository : IAccountRepository
     {
         public SystemAccount GetSystemAccountById(int accountId) => AccountDAO.GetSystemAccountById(accountId);
+
+        public SystemAccount GetSystemAccountByEmail (String email) => AccountDAO.GetSystemAccountByEmail(email);
     }
 }

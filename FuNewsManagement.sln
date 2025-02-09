@@ -22,7 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Servic
 		{836EC185-C757-48CD-9819-E244B65F27B7} = {836EC185-C757-48CD-9819-E244B65F27B7}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuNewsManagement", "FuNewsManagement\FuNewsManagement.csproj", "{BDBFACBC-C35D-4B7D-9154-2363972C04FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuNewsManagement", "FuNewsManagement\FuNewsManagement.csproj", "{BDBFACBC-C35D-4B7D-9154-2363972C04FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

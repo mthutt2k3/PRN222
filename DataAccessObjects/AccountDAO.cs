@@ -22,5 +22,18 @@ namespace DataAccessObjects
                 return null;
             }
         }
+        public static SystemAccount GetSystemAccountByEmail(string email)
+        {
+            try
+            {
+                using var db = new FunewsManagementContext();
+                return db.SystemAccounts.FirstOrDefault(a => a.AccountEmail.Equals(email));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+                return null;
+            }
+        }
     }
 }

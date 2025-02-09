@@ -1,0 +1,15 @@
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.sourcelink.json
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.runtimeconfig.json
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.AssemblyReference.cache
+D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.genruntimeconfig.cache

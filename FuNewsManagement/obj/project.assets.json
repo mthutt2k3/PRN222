@@ -3001,6 +3001,10 @@
       "BusinessObjects/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12"
+        },
         "compile": {
           "bin/placeholder/BusinessObjects.dll": {}
         },
@@ -8303,23 +8307,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acer\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\FuNewsManagement\\FuNewsManagement.csproj",
+      "projectUniqueName": "D:\\FPT\\K7\\PRN222\\Assignment\\Assignment1\\PRN222\\FuNewsManagement\\FuNewsManagement.csproj",
       "projectName": "FuNewsManagement",
-      "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\FuNewsManagement\\FuNewsManagement.csproj",
-      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\FuNewsManagement\\obj\\",
+      "projectPath": "D:\\FPT\\K7\\PRN222\\Assignment\\Assignment1\\PRN222\\FuNewsManagement\\FuNewsManagement.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\FPT\\K7\\PRN222\\Assignment\\Assignment1\\PRN222\\FuNewsManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8335,11 +8339,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\BusinessObjects.csproj"
+            "D:\\FPT\\K7\\PRN222\\Assignment\\Assignment1\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "D:\\FPT\\K7\\PRN222\\Assignment\\Assignment1\\PRN222\\BusinessObjects\\BusinessObjects.csproj"
             },
-            "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\Services\\Services.csproj": {
-              "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\Services\\Services.csproj"
+            "D:\\FPT\\K7\\PRN222\\Assignment\\Assignment1\\PRN222\\Services\\Services.csproj": {
+              "projectPath": "D:\\FPT\\K7\\PRN222\\Assignment\\Assignment1\\PRN222\\Services\\Services.csproj"
             }
           }
         }

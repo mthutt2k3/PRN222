@@ -4,26 +4,25 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using BusinessObjects;
-using DataAccessObjects;
+using Services;
 
 namespace FuNewsManagement.Controllers
 {
     public class CategoriesController : Controller
     {
-        private readonly FunewsManagementContext _context;
+        private readonly ICategoryService _contextCategory;
 
-        public CategoriesController(FunewsManagementContext context)
+        public CategoriesController(ICategoryService contextCategory)
         {
-            _context = context;
+            _contextCategory = contextCategory;
         }
 
         // GET: Categories
         public async Task<IActionResult> Index()
         {
-            var funewsManagementContext = _context.Categories.Include(c => c.ParentCategory);
-            return View(await funewsManagementContext.ToListAsync());
+            var categories = _contextCategory.GetCategories();
+            return View(categories);
         }
 
         // GET: Categories/Details/5
@@ -34,9 +33,7 @@ namespace FuNewsManagement.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Categories
-                .Include(c => c.ParentCategory)
-                .FirstOrDefaultAsync(m => m.CategoryId == id);
+            var category = _contextCategory.GetCategoryById(id);
             if (category == null)
             {
                 return NotFound();
@@ -48,24 +45,21 @@ namespace FuNewsManagement.Controllers
         // GET: Categories/Create
         public IActionResult Create()
         {
-            ViewData["ParentCategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryDesciption");
+            ViewData["ParentCategoryId"] = new SelectList(_contextCategory.GetCategories(), "CategoryId", "CategoryDesciption");
             return View();
         }
 
         // POST: Categories/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CategoryId,CategoryName,CategoryDesciption,ParentCategoryId,IsActive")] Category category)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(category);
-                await _context.SaveChangesAsync();
+                _contextCategory.SaveCategory(category);
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ParentCategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryDesciption", category.ParentCategoryId);
+            ViewData["ParentCategoryId"] = new SelectList(_contextCategory.GetCategories(), "CategoryId", "CategoryDesciption", category.ParentCategoryId);
             return View(category);
         }
 
@@ -77,18 +71,16 @@ namespace FuNewsManagement.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Categories.FindAsync(id);
+            var category = _contextCategory.GetCategoryById(id);
             if (category == null)
             {
                 return NotFound();
             }
-            ViewData["ParentCategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryDesciption", category.ParentCategoryId);
+            ViewData["ParentCategoryId"] = new SelectList(_contextCategory.GetCategories(), "CategoryId", "CategoryDesciption", category.ParentCategoryId);
             return View(category);
         }
 
         // POST: Categories/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(short id, [Bind("CategoryId,CategoryName,CategoryDesciption,ParentCategoryId,IsActive")] Category category)
@@ -102,10 +94,9 @@ namespace FuNewsManagement.Controllers
             {
                 try
                 {
-                    _context.Update(category);
-                    await _context.SaveChangesAsync();
+                    _contextCategory.UpdateCategory(category);
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception)
                 {
                     if (!CategoryExists(category.CategoryId))
                     {
@@ -118,7 +109,7 @@ namespace FuNewsManagement.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ParentCategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryDesciption", category.ParentCategoryId);
+            ViewData["ParentCategoryId"] = new SelectList(_contextCategory.GetCategories(), "CategoryId", "CategoryDesciption", category.ParentCategoryId);
             return View(category);
         }
 
@@ -130,9 +121,7 @@ namespace FuNewsManagement.Controllers
                 return NotFound();
             }
 
-            var category = await _context.Categories
-                .Include(c => c.ParentCategory)
-                .FirstOrDefaultAsync(m => m.CategoryId == id);
+            var category = _contextCategory.GetCategoryById(id);
             if (category == null)
             {
                 return NotFound();
@@ -146,19 +135,18 @@ namespace FuNewsManagement.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(short id)
         {
-            var category = await _context.Categories.FindAsync(id);
+            var category = _contextCategory.GetCategoryById(id);
             if (category != null)
             {
-                _context.Categories.Remove(category);
+                _contextCategory.DeleteCategory(category);
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CategoryExists(short id)
         {
-            return _context.Categories.Any(e => e.CategoryId == id);
+            return _contextCategory.GetCategoryById(id) != null;
         }
     }
 }
