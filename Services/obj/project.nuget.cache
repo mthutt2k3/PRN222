@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t09I9kZJ0ixmyQhoALZEKspgX3ZpXzpdJ6PUYpqTidAoneDGCYuECM5j1pdsqLAS+0BPgbP/aK59uUFg/cW1Tw==",
+  "dgSpecHash": "fMPaRCzHKeZuJqG5kcUuzfuHPxVHDB0zg/nV6f1jKtFAmZeZaYYtM/16fLVqegwNRoOSNugogXE9h8KSADRMzQ==",
   "success": true,
-  "projectFilePath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\Services\\Services.csproj",
+  "projectFilePath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acer\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

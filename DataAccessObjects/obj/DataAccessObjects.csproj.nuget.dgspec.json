@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\DataAccessObjects\\DataAccessObjects.csproj": {}
+    "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj": {}
   },
   "projects": {
-    "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\BusinessObjects.csproj": {
+    "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\BusinessObjects.csproj",
+        "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\BusinessObjects\\BusinessObjects.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\obj\\",
+        "outputPath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,14 +86,14 @@
         }
       }
     },
-    "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\DataAccessObjects\\DataAccessObjects.csproj": {
+    "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectUniqueName": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj",
         "projectName": "DataAccessObjects",
-        "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\DataAccessObjects\\obj\\",
+        "outputPath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\DataAccessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +115,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\BusinessObjects.csproj"
+              "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }

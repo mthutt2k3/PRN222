@@ -18,6 +18,8 @@ namespace Services
         }
 
         public SystemAccount GetSystemAccountById(int accountId) => accountRepository.GetSystemAccountById(accountId);
+
+        public SystemAccount GetSystemAccountByEmail(string email) => accountRepository.GetSystemAccountByEmail(email);
     }
 
 }

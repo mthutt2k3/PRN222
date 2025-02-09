@@ -1110,6 +1110,10 @@
       "BusinessObjects/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.12"
+        },
         "compile": {
           "bin/placeholder/BusinessObjects.dll": {}
         },
@@ -3078,11 +3082,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\Services\\Services.csproj",
+      "projectUniqueName": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\Services\\Services.csproj",
+      "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\Services\\obj\\",
+      "outputPath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3104,11 +3108,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\BusinessObjects\\BusinessObjects.csproj"
+            "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\BusinessObjects\\BusinessObjects.csproj"
             },
-            "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\Repositories\\Repositories.csproj"
+            "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\Repositories\\Repositories.csproj"
             }
           }
         }

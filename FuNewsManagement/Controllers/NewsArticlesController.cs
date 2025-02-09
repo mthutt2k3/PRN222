@@ -29,6 +29,12 @@ namespace FuNewsManagement.Controllers
         // GET: NewsArticles
         public async Task<IActionResult> Index()
         {
+            if (!HttpContext.Session.GetString("AccountRole").Equals("1"))
+            {
+                // Redirect to the login page or display an error message
+                return RedirectToAction("Login", "SystemAccounts");
+            }
+
             var myStoreContext = _contextNewsArticle.GetNewsArticles();
             return View(myStoreContext.ToList());
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z7CAFSRn1LqJzKKFAl1R0w8Xe+iJNY2QMDDrCblqhqb+BV6FkeGJWuF3dk26AljhWZwjk/PMa0YZNN2dppz1xw==",
+  "dgSpecHash": "0JzMmz9CLBpIoUL5xRFzp2ymU1fxj1tmY/Z2WbqhmYjcN7X6NaIq7v++jYrXax59UXY6EvXdjH2Cu+MX9xrEmw==",
   "success": true,
-  "projectFilePath": "D:\\FPT_University\\Semester_7\\PRN222\\assignment\\FUNewsManagement\\DataAccessObjects\\DataAccessObjects.csproj",
+  "projectFilePath": "D:\\FPT_University\\Semester_7\\PRN222\\up-remote\\PRN222\\DataAccessObjects\\DataAccessObjects.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acer\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
