@@ -17,123 +17,123 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FuNewsManagement
 build_property.RootNamespace = FuNewsManagement
-build_property.ProjectDir = D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\FuNewsManagement\
+build_property.ProjectDir = D:\FPT\K7\PRN222\Assignment\Assignment1\PRN222\FuNewsManagement\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\FPT_University\Semester_7\PRN222\up-remote\PRN222\FuNewsManagement
+build_property.MSBuildProjectDirectory = D:\FPT\K7\PRN222\Assignment\Assignment1\PRN222\FuNewsManagement
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Categories/Create.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Categories/Delete.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Categories/Details.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Categories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Categories/Edit.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Categories/Index.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Home/Index.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Home/Privacy.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/NewsArticles/Create.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/NewsArticles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0FydGljbGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/NewsArticles/Delete.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/NewsArticles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0FydGljbGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/NewsArticles/Details.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/NewsArticles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0FydGljbGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/NewsArticles/Edit.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/NewsArticles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0FydGljbGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/NewsArticles/Index.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/NewsArticles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0FydGljbGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Shared/Error.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/SystemAccounts/Create.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/SystemAccounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/SystemAccounts/Delete.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/SystemAccounts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/SystemAccounts/Details.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/SystemAccounts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/SystemAccounts/Edit.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/SystemAccounts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWNjb3VudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/SystemAccounts/Index.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/SystemAccounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWNjb3VudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/SystemAccounts/Login.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/SystemAccounts/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3lzdGVtQWNjb3VudHNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Tags/Create.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Tags/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Tags/Delete.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Tags/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Tags/Details.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Tags/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Tags/Edit.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Tags/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Tags/Index.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Tags/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFnc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/_ViewImports.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/_ViewStart.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT_University/Semester_7/PRN222/up-remote/PRN222/FuNewsManagement/Views/Shared/_Layout.cshtml]
+[D:/FPT/K7/PRN222/Assignment/Assignment1/PRN222/FuNewsManagement/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tfz14mfjso
